@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F21A6581F0B7C3100981DBC /* DustMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A6521F0B7C3100981DBC /* DustMeter.swift */; };
+		0F21A6591F0B7C3100981DBC /* Observation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A6531F0B7C3100981DBC /* Observation.swift */; };
+		0F21A65A1F0B7C3100981DBC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A6541F0B7C3100981DBC /* User.swift */; };
+		0F21A65B1F0B7C3100981DBC /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A6561F0B7C3100981DBC /* Observable.swift */; };
+		0F21A65C1F0B7C3100981DBC /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A6571F0B7C3100981DBC /* Observer.swift */; };
 		0F4A4E161F0B6C90006B899E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A4E151F0B6C90006B899E /* AppDelegate.swift */; };
 		0F4A4E181F0B6C90006B899E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A4E171F0B6C90006B899E /* ViewController.swift */; };
 		0F4A4E1B1F0B6C90006B899E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F4A4E191F0B6C90006B899E /* Main.storyboard */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F21A6521F0B7C3100981DBC /* DustMeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DustMeter.swift; sourceTree = "<group>"; };
+		0F21A6531F0B7C3100981DBC /* Observation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observation.swift; sourceTree = "<group>"; };
+		0F21A6541F0B7C3100981DBC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0F21A6561F0B7C3100981DBC /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		0F21A6571F0B7C3100981DBC /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		0F4A4E121F0B6C90006B899E /* ObserverPatternExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObserverPatternExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F4A4E151F0B6C90006B899E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F4A4E171F0B6C90006B899E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +84,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F21A6511F0B7C3100981DBC /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0F21A6531F0B7C3100981DBC /* Observation.swift */,
+				0F21A6521F0B7C3100981DBC /* DustMeter.swift */,
+				0F21A6541F0B7C3100981DBC /* User.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		0F21A6551F0B7C3100981DBC /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0F21A6561F0B7C3100981DBC /* Observable.swift */,
+				0F21A6571F0B7C3100981DBC /* Observer.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		0F4A4E091F0B6C90006B899E = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +126,8 @@
 		0F4A4E141F0B6C90006B899E /* ObserverPatternExample */ = {
 			isa = PBXGroup;
 			children = (
+				0F21A6551F0B7C3100981DBC /* Protocol */,
+				0F21A6511F0B7C3100981DBC /* Class */,
 				0F4A4E151F0B6C90006B899E /* AppDelegate.swift */,
 				0F4A4E171F0B6C90006B899E /* ViewController.swift */,
 				0F4A4E191F0B6C90006B899E /* Main.storyboard */,
@@ -259,7 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F21A6591F0B7C3100981DBC /* Observation.swift in Sources */,
 				0F4A4E181F0B6C90006B899E /* ViewController.swift in Sources */,
+				0F21A6581F0B7C3100981DBC /* DustMeter.swift in Sources */,
+				0F21A65A1F0B7C3100981DBC /* User.swift in Sources */,
+				0F21A65B1F0B7C3100981DBC /* Observable.swift in Sources */,
+				0F21A65C1F0B7C3100981DBC /* Observer.swift in Sources */,
 				0F4A4E161F0B6C90006B899E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +541,7 @@
 				0F4A4E3C1F0B6C90006B899E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F4A4E3D1F0B6C90006B899E /* Build configuration list for PBXNativeTarget "ObserverPatternExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +550,7 @@
 				0F4A4E3F1F0B6C90006B899E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F4A4E401F0B6C90006B899E /* Build configuration list for PBXNativeTarget "ObserverPatternExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +559,7 @@
 				0F4A4E421F0B6C90006B899E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

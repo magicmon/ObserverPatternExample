@@ -2,7 +2,7 @@
 //  ObserverPatternExampleTests.swift
 //  ObserverPatternExampleTests
 //
-//  Created by 1100009 on 2017. 7. 4..
+//  Created by magicmon on 2017. 7. 4..
 //  Copyright © 2017년 magicmon. All rights reserved.
 //
 
