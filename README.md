@@ -51,7 +51,7 @@ class DustMeter: Observation {
 
 미세면지 농도 상태를 측정하는 클래스
 ```
-class User: Observer {
+class Subscriber: Observer {
 
     var name: String = ""
 
@@ -74,9 +74,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         // 관찰자
-        let user1 = User(name: "Tom")
-        let user2 = User(name: "Sam")
-        let _ = User(name: "Kim")
+        let user1 = Subscriber(name: "Tom")
+        let user2 = Subscriber(name: "Sam")
+        let _ = Subscriber(name: "Kim")
 
         // 알림을 받을 유저 추가
         dustMeter.addObserver(user1)
@@ -98,6 +98,6 @@ extension ViewController {
 }
 ```
 
-## 
+##
 자세한 설명은 블로그 참고
 https://magicmon.github.io/2017/07/04/Observer-Pattern
