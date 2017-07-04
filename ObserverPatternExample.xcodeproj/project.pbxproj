@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F21A6581F0B7C3100981DBC /* DustMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A6521F0B7C3100981DBC /* DustMeter.swift */; };
 		0F21A6591F0B7C3100981DBC /* Observation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A6531F0B7C3100981DBC /* Observation.swift */; };
-		0F21A65A1F0B7C3100981DBC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A6541F0B7C3100981DBC /* User.swift */; };
+		0F21A65A1F0B7C3100981DBC /* Subscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A6541F0B7C3100981DBC /* Subscriber.swift */; };
 		0F21A65B1F0B7C3100981DBC /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A6561F0B7C3100981DBC /* Observable.swift */; };
 		0F21A65C1F0B7C3100981DBC /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F21A6571F0B7C3100981DBC /* Observer.swift */; };
 		0F4A4E161F0B6C90006B899E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A4E151F0B6C90006B899E /* AppDelegate.swift */; };
@@ -41,7 +41,7 @@
 /* Begin PBXFileReference section */
 		0F21A6521F0B7C3100981DBC /* DustMeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DustMeter.swift; sourceTree = "<group>"; };
 		0F21A6531F0B7C3100981DBC /* Observation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observation.swift; sourceTree = "<group>"; };
-		0F21A6541F0B7C3100981DBC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0F21A6541F0B7C3100981DBC /* Subscriber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscriber.swift; sourceTree = "<group>"; };
 		0F21A6561F0B7C3100981DBC /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		0F21A6571F0B7C3100981DBC /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		0F4A4E121F0B6C90006B899E /* ObserverPatternExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObserverPatternExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,7 +89,7 @@
 			children = (
 				0F21A6531F0B7C3100981DBC /* Observation.swift */,
 				0F21A6521F0B7C3100981DBC /* DustMeter.swift */,
-				0F21A6541F0B7C3100981DBC /* User.swift */,
+				0F21A6541F0B7C3100981DBC /* Subscriber.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -293,7 +293,7 @@
 				0F21A6591F0B7C3100981DBC /* Observation.swift in Sources */,
 				0F4A4E181F0B6C90006B899E /* ViewController.swift in Sources */,
 				0F21A6581F0B7C3100981DBC /* DustMeter.swift in Sources */,
-				0F21A65A1F0B7C3100981DBC /* User.swift in Sources */,
+				0F21A65A1F0B7C3100981DBC /* Subscriber.swift in Sources */,
 				0F21A65B1F0B7C3100981DBC /* Observable.swift in Sources */,
 				0F21A65C1F0B7C3100981DBC /* Observer.swift in Sources */,
 				0F4A4E161F0B6C90006B899E /* AppDelegate.swift in Sources */,

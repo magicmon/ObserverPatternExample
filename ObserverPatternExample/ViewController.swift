@@ -16,9 +16,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let user1 = User(name: "Tom")
-        let user2 = User(name: "Sam")
-        let _ = User(name: "Kim")
+        let user1 = Subscriber(name: "Tom")
+        let user2 = Subscriber(name: "Sam")
+        let _ = Subscriber(name: "Kim")
         
         // add User
         dustMeter.addObserver(user1)

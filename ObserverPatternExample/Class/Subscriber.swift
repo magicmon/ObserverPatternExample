@@ -8,7 +8,7 @@
 
 import Foundation
 
-class User: Observer {
+class Subscriber: Observer {
     
     var name: String = ""
     
