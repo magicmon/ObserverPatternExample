@@ -98,5 +98,6 @@ extension ViewController {
 }
 ```
 
-## explain
-(자세한 설명은 블로그 참고)[https://magicmon.github.io/2017/07/04/Observer-Pattern/]
+## 
+자세한 설명은 블로그 참고
+https://magicmon.github.io/2017/07/04/Observer-Pattern
