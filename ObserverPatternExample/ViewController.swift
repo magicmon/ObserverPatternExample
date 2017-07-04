@@ -20,8 +20,12 @@ class ViewController: UIViewController {
         let user2 = User(name: "Sam")
         let _ = User(name: "Kim")
         
+        // add User
         dustMeter.addObserver(user1)
         dustMeter.addObserver(user2)
+        
+        // remove User
+        dustMeter.removeObserver(user1)
     }
     
     override func didReceiveMemoryWarning() {
